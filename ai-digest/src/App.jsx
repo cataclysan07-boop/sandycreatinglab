@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import DigestCard from './components/DigestCard';
 import Sidebar from './components/Sidebar';
+import AIAssistant from './components/AIAssistant';
 import { DIGEST_DATA } from './data/digest';
 import './index.css';
 
@@ -90,6 +91,7 @@ export default function App() {
           </p>
         </footer>
       </main>
+      <AIAssistant />
     </div>
   );
 }
